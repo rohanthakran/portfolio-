@@ -48,7 +48,12 @@ nav{
     margin: 50px;
 }
 .com{
+    max-width: 1000px;
     
+}
+.com img{
+    max-width: 500px;
+    margin: 50px;
 }
 .myself span{
     font-size: 50px;
@@ -62,9 +67,24 @@ nav{
     color: #00b894;
 
 } 
+.social-link{
+    display: flex;
+    max-width: 400px;
+    margin:0 auto;
+    justify-content: space-evenly;
+}
+.social-link a{
+    color: black;
+    
+
+}
+.social-link i{
+    font-size: 30px;
+
+}
 @keyframes change {
     0%{content: "My name is Rohan Thakran";}
     40% {content: "And";}
     60% {content: "I am a";}
-    100%{content: "Web Developer";}
+    100%{content: "I am a Web Developer";}
 }
