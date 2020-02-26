@@ -82,9 +82,51 @@ nav{
     font-size: 30px;
 
 }
+.my-project{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+
+}
+.card{
+    width: 500px;
+    height: 250px;
+    background: blue;
+    margin: 12px;
+}
+.card img{
+    width: 100%;
+    max-width: 200px;
+    padding: 12px;
+}
 @keyframes change {
     0%{content: "My name is Rohan Thakran";}
     40% {content: "And";}
     60% {content: "I am a";}
     100%{content: "I am a Web Developer";}
+}
+@media screen and (max-width: 680px){
+    .container{
+        flex-direction: column;
+    }
+    .com img{
+        max-width: 250px;
+        margin: 20px;
+    }
+    .com{text-align: center;}
+    .container .myself {
+    
+        height: 20vh;
+
+    }
+    .myself span{
+        font-size: 25px;
+    }
+    .my-project{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        max-width: 250px;
+    }
 }
